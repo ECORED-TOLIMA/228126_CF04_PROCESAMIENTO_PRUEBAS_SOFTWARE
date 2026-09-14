@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+  <g id="Grupo_1188554" data-name="Grupo 1188554" transform="translate(-383.67 -8399.924)">
+    <circle id="Elipse_13890" data-name="Elipse 13890" cx="48" cy="48" r="48" transform="translate(383.67 8399.924)" fill="#5a9ad7"/>
+    <path id="Intersección_1" data-name="Intersección 1" d="M0,47.89A47.893,47.893,0,0,1,79.511,11.92L1.1,58.131A48,48,0,0,1,0,47.89Z" transform="translate(383.779 8400.031)" fill="#19538d"/>
+    <path id="Trazado_1032916" data-name="Trazado 1032916" d="M40,0A40,40,0,1,1,0,40,40,40,0,0,1,40,0Z" transform="translate(391.67 8407.924)" fill="#e6f3ff"/>
+    <g id="Grupo_1188343" data-name="Grupo 1188343" transform="translate(406.126 8422.38)">
+      <rect id="Rectángulo_459838" data-name="Rectángulo 459838" width="52" height="52" transform="translate(-0.202 -0.456)" fill="none"/>
+      <g id="data-analytics" transform="translate(-8.651 -8.368)">
+        <path id="Trazado_1030425" data-name="Trazado 1030425" d="M80,25h5.978v3.985H80Z" transform="translate(-28.154 -6.033)" fill="#19538d"/>
+        <path id="Trazado_1030426" data-name="Trazado 1030426" d="M83.333,48.333h3.985v3.985H83.333Z" transform="translate(-29.495 -15.418)" fill="#19538d"/>
+        <path id="Trazado_1030427" data-name="Trazado 1030427" d="M57.243,53.014l-8.453-8.453a32.28,32.28,0,0,0-3.012-2.594l-3.845-2.842A17.865,17.865,0,0,0,43.447,36.9h7.4V32.914h-5.7a17.7,17.7,0,0,0,0-9.963h3.7V18.967H43.447a17.932,17.932,0,1,0-4.321,22.966l2.842,3.843a32.152,32.152,0,0,0,2.6,3.012l8.453,8.456a2,2,0,0,0,2.819,0l1.408-1.411a2,2,0,0,0,0-2.819ZM34.907,18.967h3.7a13.979,13.979,0,0,1,2.343,3.985H34.907Zm-6.974,0h3.985v3.985H27.934Zm-9.963,0h6.974v3.985H17.971Zm0,6.974h3.985v3.985H17.971ZM28.93,36.9H17.971V32.915H28.93Zm9.673,0H31.919V32.915h9.027A13.971,13.971,0,0,1,38.6,36.9Zm3.119-6.974H24.945V25.941H41.722a12.52,12.52,0,0,1,0,3.985Z" transform="translate(0 0)" fill="#19538d"/>
+        <path id="Trazado_1030428" data-name="Trazado 1030428" d="M75,36.666h8.967v3.985H75Z" transform="translate(-26.143 -10.725)" fill="#19538d"/>
+      </g>
+    </g>
+  </g>
+</svg>

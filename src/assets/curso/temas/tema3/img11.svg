@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <g id="Grupo_1188580" data-name="Grupo 1188580" transform="translate(-383.746 -8400)">
+    <circle id="Elipse_13890" data-name="Elipse 13890" cx="64" cy="64" r="64" transform="translate(383.746 8400)" fill="#5a9ad7"/>
+    <path id="Intersección_1" data-name="Intersección 1" d="M23204.689,11774.869a64,64,0,0,1,106.254-48.067l-104.787,61.753A64.213,64.213,0,0,1,23204.689,11774.869Z" transform="translate(-22820.941 -3310.872)" fill="#19538d"/>
+    <circle id="Elipse_13891" data-name="Elipse 13891" cx="54" cy="54" r="54" transform="translate(393.746 8410)" fill="#fff"/>
+    <g id="Grupo_1188343" data-name="Grupo 1188343" transform="translate(-0.994 -0.997)">
+      <rect id="Rectángulo_459838" data-name="Rectángulo 459838" width="66" height="66" transform="translate(415.74 8431.997)" fill="#fff"/>
+      <g id="Grupo_1188590" data-name="Grupo 1188590" transform="translate(414.74 8429.996)">
+        <g id="Grupo_1099618" data-name="Grupo 1099618" transform="translate(0 0)">
+          <rect id="Rectángulo_401104" data-name="Rectángulo 401104" width="68.18" height="69.001" transform="translate(0)" fill="none"/>
+        </g>
+        <path id="Trazado_1031883" data-name="Trazado 1031883" d="M152.168,2.129V8.814h-4.384V58.53h4.384v6.685H138.8V2.129Zm17.046,6.685V2.129h13.4V65.214h-13.4V58.53h4.446V8.814Z" transform="translate(-126.529 0.601)" fill="#19538d"/>
+      </g>
+    </g>
+  </g>
+</svg>

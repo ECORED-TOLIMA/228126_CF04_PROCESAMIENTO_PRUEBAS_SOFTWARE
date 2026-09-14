@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="130" viewBox="0 0 130 130">
+  <g id="Grupo_1188603" data-name="Grupo 1188603" transform="translate(-186 -9253.862)">
+    <g id="Grupo_1188415" data-name="Grupo 1188415" transform="translate(186 9253.862)">
+      <circle id="Elipse_13890" data-name="Elipse 13890" cx="65" cy="65" r="65" transform="translate(130 130) rotate(180)" fill="#7dbfff"/>
+      <path id="Intersección_3" data-name="Intersección 3" d="M0,61.621,107.4,0A65.086,65.086,0,0,1,43.784,78.57,64.8,64.8,0,0,1,0,61.621Z" transform="translate(21.185 51.43)" fill="#19538d"/>
+      <path id="Trazado_1032950" data-name="Trazado 1032950" d="M54.541,0A54.541,54.541,0,1,1,0,54.541,54.541,54.541,0,0,1,54.541,0Z" transform="translate(119.541 119.518) rotate(180)" fill="#d5f4f8"/>
+      <path id="Intersección_2" data-name="Intersección 2" d="M0,54.575A54.544,54.544,0,0,1,108.536,46.8L20.977,97.592A54.5,54.5,0,0,1,0,54.575Z" transform="translate(10.46 10.435)" fill="#fff"/>
+      <g id="Grupo_1188343" data-name="Grupo 1188343" transform="translate(31.006 30.983)">
+        <rect id="Rectángulo_459838" data-name="Rectángulo 459838" width="67.985" height="67.985" transform="translate(0 0)" fill="none"/>
+        <g id="Grupo_1188607" data-name="Grupo 1188607" transform="translate(2.947 2.808)">
+          <g id="Grupo_1099618" data-name="Grupo 1099618" transform="translate(-0.254 -0.352)">
+            <rect id="Rectángulo_401104" data-name="Rectángulo 401104" width="62.518" height="63.271" transform="translate(0)" fill="none"/>
+          </g>
+          <g id="algoritmos" transform="translate(-0.254 -0.501)">
+            <path id="Trazado_1031363" data-name="Trazado 1031363" d="M58.935,270.153V258.659H36.8v-3.668H33.135V249H29.467v5.991H25.8v3.668H3.668v11.493H0v11H11v-11H7.336v-7.825H25.8V266h11v-3.668H55.267v7.825H51.6v3.668H36.488a5.5,5.5,0,1,0,0,3.668H51.6v3.668h11v-11Z" transform="translate(0 -218.555)" fill="#12263f"/>
+            <path id="Trazado_1031364" data-name="Trazado 1031364" d="M152.937,11.59a10.876,10.876,0,0,0,.015,3.685l.223,1.264-2.437,1.407,2.515,4.357,2.461-1.422.983.814a10.723,10.723,0,0,0,3.194,1.829l1.208.438v2.815h5.031V23.939l1.195-.445a10.724,10.724,0,0,0,3.178-1.856l.984-.828,2.441,1.409,2.515-4.357-2.459-1.42a17.485,17.485,0,0,0,.362-3.054,17.129,17.129,0,0,0-.388-3.151L176.4,8.83,173.88,4.474,171.419,5.9l-.983-.814a10.724,10.724,0,0,0-3.194-1.829l-1.208-.438V0H161V2.838l-1.195.445a10.724,10.724,0,0,0-3.178,1.856l-.984.828-2.441-1.409L150.69,8.915l2.459,1.42Zm8.795-.035H165.4v3.668h-3.668Z" transform="translate(-132.265 0)" fill="#12263f"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
