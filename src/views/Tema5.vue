@@ -30,11 +30,11 @@
     p.text-center La depuración consiste en detectar errores, analizar el comportamiento del programa y corregir fallos en la lógica del código.
     p.mb-3.text-center Las siguientes son las herramientas de depuración:
 
-    .row.justify-content-center.BG02.p-4
+    .row.justify-content-center.BG06.align-items-center
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema5/img2.png", alt="").img400.m-auto
-      .col-lg-8
+      .col-lg-6
         p.mb-5
         SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
           .tarjeta.tarjeta--slyder.p-4
@@ -126,19 +126,19 @@
                   p.mb-3 Las fallas de sintaxis pueden presentarse en diferentes formas, tales como:
                   ul.lista-ul
                     li
-                      i.fas.fa-cloud-arrow-down
+                      i.fas.fa-file-code
                       | Falta de punto y coma al finalizar instrucciones.
                     li
-                      i.fas.fa-cloud-arrow-down
+                      i.fas.fa-file-code
                       | Uso incorrecto de llaves {} o paréntesis ().
                     li
-                      i.fas.fa-cloud-arrow-down
+                      i.fas.fa-file-code
                       | Declaraciones incompletas o mal estructuradas.
                     li
-                      i.fas.fa-cloud-arrow-down
+                      i.fas.fa-file-code
                       | Errores en cadenas de texto (comillas abiertas o mal cerradas).
                     li
-                      i.fas.fa-cloud-arrow-down
+                      i.fas.fa-file-code
                       | Uso incorrecto de palabras reservadas del lenguaje.
 
                 .bloque-texto-gg__img1(
@@ -176,25 +176,25 @@
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 manejoErrores.js
-                p.text-white.mb-1 function checkAge(age) {
-                p.text-white.ms-2.mb-1 if (age < 18) {
-                p.text-white.ms-3.mb-1 throw new Error("You must be 18 or older.");
-                p.text-white.ms-2.mb-1 }
-                p.text-white.ms-2.mb-1 return "Access granted";
-                p.text-white.mb-1 }
-                p.text-white.mb-1  
-                p.text-white.mb-1 try {
-                p.text-white.ms-2.mb-1 console.log(checkAge(16));
-                p.text-white.mb-1 } catch (error) {
-                p.text-white.ms-2.mb-1 console.log("Error:", error.message);
-                p.text-white.mb-1 } // Fin del manejo de errores              
+                p.mb-1 manejoErrores.js
+                p.mb-1 function checkAge(age) {
+                p.ms-2.mb-1 if (age < 18) {
+                p.ms-3.mb-1 throw new Error("You must be 18 or older.");
+                p.ms-2.mb-1 }
+                p.ms-2.mb-1 return "Access granted";
+                p.mb-1 }
+                p.mb-1  
+                p.mb-1 try {
+                p.ms-2.mb-1 console.log(checkAge(16));
+                p.mb-1 } catch (error) {
+                p.ms-2.mb-1 console.log("Error:", error.message);
+                p.mb-1 } // Fin del manejo de errores              
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-10.text-center
             .titulo3.p-4(data-aos="fade-left")
@@ -243,16 +243,16 @@
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 fetch("https://jsonplaceholder.typicode.com/posts/1")
-                p.text-white.ms-2.mb-1 .then(response => response.json())
-                p.text-white.ms-2.mb-1 .then(data => console.log(data))
-                p.text-white.ms-2.mb-1 .catch(error => console.error("Error fetching data:", error.message));                
+                p.mb-1 fetch("https://jsonplaceholder.typicode.com/posts/1")
+                p.ms-2.mb-1 .then(response => response.json())
+                p.ms-2.mb-1 .then(data => console.log(data))
+                p.ms-2.mb-1 .catch(error => console.error("Error fetching data:", error.message));                
     p.mb-4.text-center Si la solicitud falla (por ejemplo, por falta de conexión), el método .catch() maneja el error adecuadamente.            
     
     .titulo.mb-4(data-aos="fade-left")
@@ -264,23 +264,23 @@
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 async function fetchData() {
-                p.text-white.ms-2.mb-1 try {
-                p.text-white.ms-3.mb-1 const response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
-                p.text-white.ms-3.mb-1 const data = await response.json();
-                p.text-white.ms-3.mb-1 console.log(data);
-                p.text-white.ms-2.mb-1 } catch (error) {
-                p.text-white.ms-3.mb-1 console.error("Error fetching data:", error.message);
-                p.text-white.ms-2.mb-1 }
-                p.text-white.mb-1 }
-                p.text-white.mb-1  
-                p.text-white.mb-1 fetchData();
+                p.mb-1 async function fetchData() {
+                p.ms-2.mb-1 try {
+                p.ms-3.mb-1 const response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
+                p.ms-3.mb-1 const data = await response.json();
+                p.ms-3.mb-1 console.log(data);
+                p.ms-2.mb-1 } catch (error) {
+                p.ms-3.mb-1 console.error("Error fetching data:", error.message);
+                p.ms-2.mb-1 }
+                p.mb-1 }
+                p.mb-1  
+                p.mb-1 fetchData();
     p.text-center Esto evita promesas no controladas y permite un manejo estructurado de errores.
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='')
@@ -291,24 +291,24 @@
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 function processTask() {
-                p.text-white.ms-2.mb-1 try {
-                p.text-white.ms-3.mb-1 console.log("Processing...");
-                p.text-white.ms-3.mb-1 throw new Error("Something went wrong!");
-                p.text-white.ms-2.mb-1 } catch (error) {
-                p.text-white.ms-3.mb-1 console.error("Caught error:", error.message);
-                p.text-white.ms-2.mb-1 } finally {
-                p.text-white.ms-3.mb-1 console.log("Task completed (cleaning up resources).");
-                p.text-white.ms-2.mb-1 }
-                p.text-white.mb-1 }
-                p.text-white.mb-1  
-                p.text-white.mb-1 processTask();
+                p.mb-1 function processTask() {
+                p.ms-2.mb-1 try {
+                p.ms-3.mb-1 console.log("Processing...");
+                p.ms-3.mb-1 throw new Error("Something went wrong!");
+                p.ms-2.mb-1 } catch (error) {
+                p.ms-3.mb-1 console.error("Caught error:", error.message);
+                p.ms-2.mb-1 } finally {
+                p.ms-3.mb-1 console.log("Task completed (cleaning up resources).");
+                p.ms-2.mb-1 }
+                p.mb-1 }
+                p.mb-1  
+                p.mb-1 processTask();
     .titulo.mb-4(data-aos="fade-left")
       img(src='@/assets/curso/icon.svg', alt='')
       h5 d) Diferentes tipos de errores de JavaScript              
@@ -593,29 +593,29 @@
           .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
             .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
               .d-flex
-                .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-                .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-                .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-            .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+            .p-4(style="background-color: #F5F2F0;")
               .row.align-items-center
                 .col-md-8.mb-3.mb-md-0
-                  p.text-white.mb-1 function divideNumbers(a, b) {
-                  p.text-white.ms-2.mb-1 try {
-                  p.text-white.ms-3.mb-1 if (b === 0) {
-                  p.text-white.ms-4.mb-1 const err = new Error("Division by zero is not allowed.");
-                  p.text-white.ms-4.mb-1 throw err;
-                  p.text-white.ms-3.mb-1 }
-                  p.text-white.ms-4.mb-1 const result = a/b;
-                  p.text-white.ms-4.mb-1 console.log(`The result is ${result}`);
-                  p.text-white.ms-3.mb-1 } catch(error) {
-                  p.text-white.ms-4.mb-1 console.error("Got a Math Error:", error.message)
-                  p.text-white.ms-3.mb-1 }
-                  p.text-white.ms-1.mb-1 }          
+                  p.mb-1 function divideNumbers(a, b) {
+                  p.ms-2.mb-1 try {
+                  p.ms-3.mb-1 if (b === 0) {
+                  p.ms-4.mb-1 const err = new Error("Division by zero is not allowed.");
+                  p.ms-4.mb-1 throw err;
+                  p.ms-3.mb-1 }
+                  p.ms-4.mb-1 const result = a/b;
+                  p.ms-4.mb-1 console.log(`The result is ${result}`);
+                  p.ms-3.mb-1 } catch(error) {
+                  p.ms-4.mb-1 console.error("Got a Math Error:", error.message)
+                  p.ms-3.mb-1 }
+                  p.ms-1.mb-1 }          
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7
         p.mb-3 Ahora bien, si se invoca la función con los siguientes argumentos, se obtendrá un resultado de 5, y el segundo argumento es un valor distinto de cero:
-        .tarjeta--fondo5.p-4.mb-3
+        .tarjeta--fondo12.p-4.mb-3
           p.mb-0.text-white divideNumbers(15, 3); // The result is 5
           p.mb-0.text-white  Pero si pasamos el valor 0 como segundo argumento, el programa generará un error y este se registrará en la consola.
           p.mb-0.text-white  divideNumbers(15, 0);
@@ -632,25 +632,25 @@
         .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 function parseJSONSafely(str) {
-                p.text-white.ms-2.mb-1 try {
-                p.text-white.ms-3.mb-1 return JSON.parse(str);
-                p.text-white.ms-2.mb-1 } catch (err) {
-                p.text-white.ms-3.mb-1 console.error("Invalid JSON:", err.message);
-                p.text-white.ms-3.mb-1 return null;
-                p.text-white.ms-2.mb-1 }
-                p.text-white.mb-1 }
-                p.text-white.mb-1  
-                p.text-white.mb-1 const userData = parseJSONSafely('{"name": "tapaScript"}'); // Parsed
-                p.text-white.mb-1 const badData = parseJSONSafely('name: tapaScript'); // Handled gracefully
-                p.text-white.mb-1  
-                p.text-white.mb-1 Sin try...catch, la segunda llamada provocará que la aplicación falle.     
+                p.mb-1 function parseJSONSafely(str) {
+                p.ms-2.mb-1 try {
+                p.ms-3.mb-1 return JSON.parse(str);
+                p.ms-2.mb-1 } catch (err) {
+                p.ms-3.mb-1 console.error("Invalid JSON:", err.message);
+                p.ms-3.mb-1 return null;
+                p.ms-2.mb-1 }
+                p.mb-1 }
+                p.mb-1  
+                p.mb-1 const userData = parseJSONSafely('{"name": "tapaScript"}'); // Parsed
+                p.mb-1 const badData = parseJSONSafely('name: tapaScript'); // Handled gracefully
+                p.mb-1  
+                p.mb-1 Sin try...catch, la segunda llamada provocará que la aplicación falle.     
 </template>
 
 <script>

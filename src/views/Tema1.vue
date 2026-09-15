@@ -67,8 +67,11 @@
             .p-4
               h5 Interpretados
               p Se ejecutan a través de un intérprete que traduce y ejecuta el código instrucción por instrucción en tiempo real. Esto facilita la prueba, la corrección de errores y la adaptación del programa a distintos entornos.
-    p(data-aos="flip-up") El desarrollo de habilidades en programación también implica el uso de buenas prácticas como la documentación del código, el uso de nombres descriptivos para variables y funciones, y la organización adecuada del proyecto.
-    p.mb-0(data-aos="flip-up") Finalmente, comprender los fundamentos de programación es esencial para avanzar hacia temas más complejos como estructuras de datos, desarrollo #[i web], inteligencia artificial y sistemas distribuidos.
+    
+    
+    .row.bg-01.p-4
+      p(data-aos="flip-up") El desarrollo de habilidades en programación también implica el uso de buenas prácticas como la documentación del código, el uso de nombres descriptivos para variables y funciones, y la organización adecuada del proyecto.
+      p.mb-0(data-aos="flip-up") Finalmente, comprender los fundamentos de programación es esencial para avanzar hacia temas más complejos como estructuras de datos, desarrollo #[i web], inteligencia artificial y sistemas distribuidos.
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.1 Conceptos básicos de programación
@@ -235,93 +238,100 @@
     p(data-aos="fade-right") Además, la programación requiere seguir buenas prácticas como la correcta indentación del código, el uso de nombres significativos y la documentación mediante comentarios.
     p.mb-4(data-aos="fade-right") Finalmente, comprender estos conceptos básicos es esencial para avanzar hacia temas más complejos en ingeniería de #[i software]. Es importante tener en cuenta los elementos de la programación:
 
-    .row.justify-content-center.BG02.p-4.mb-4
-      .col-lg-4.d-none.d-lg-block
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema1/img9.png", alt="").img400.m-auto
-      .col-lg-8(data-aos="fade-right")
-        
-        SlyderF.p-4.mb-4(columnas="col-lg-6 col-xl-4")
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/tema1/img10.svg", alt="").img100.m-auto
-            h5.text-center.mb-4 Algoritmos
-            p.text-center.mb-5 Pasos para resolver problemas.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/tema1/img11.svg", alt="").img100.m-auto
-            h5.text-center.mb-4 Variables
-            p.text-center.mb-5 Almacenamiento de datos.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/tema1/img12.svg", alt="").img100.m-auto
-            h5.text-center.mb-4 Tipos de datos
-            p.text-center.mb-5 Clasificación de la información.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/tema1/img13.svg", alt="").img100.m-auto
-            h5.text-center.mb-4 Operadores
-            p.text-center.mb-5 Manipulación de datos.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/tema1/img13.svg", alt="").img100.m-auto
-            h5.text-center.mb-4 Estructuras de control
-            p.text-center.mb-5 Flujo del programa.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-8
-                img(src="@/assets/curso/temas/tema1/img14.svg", alt="").img100.m-auto
-            h5.text-center.mb-4 Funciones
-            p.text-center.mb-5 Reutilización de código.
+
+    .row.BG06
+      .col-12
+        .row.align-items-center.bg-3.justify-content-center
+          .col-lg-4.d-lg-block.d-none
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/temas/tema1/img9.png',  style='width: 396px').m-auto
+  
+          .col-lg-7
+            SlyderF(columnas="col-lg-6 col-xl-4")
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img10.svg", alt="").img100.m-auto
+                h5.text-center.mb-4 Algoritmos
+                p.text-center.mb-5 Pasos para resolver problemas.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img11.svg", alt="").img100.m-auto
+                h5.text-center.mb-4 Variables
+                p.text-center.mb-5 Almacenamiento de datos.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img12.svg", alt="").img100.m-auto
+                h5.text-center.mb-4 Tipos de datos
+                p.text-center.mb-5 Clasificación de la información.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img13.svg", alt="").img100.m-auto
+                h5.text-center.mb-4 Operadores
+                p.text-center.mb-5 Manipulación de datos.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img13.svg", alt="").img100.m-auto
+                h5.text-center.mb-4 Estructuras de control
+                p.text-center.mb-5 Flujo del programa.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-8
+                    img(src="@/assets/curso/temas/tema1/img14.svg", alt="").img100.m-auto
+                h5.text-center.mb-4 Funciones
+                p.text-center.mb-5 Reutilización de código.
+              
+
     
-    p El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
-    p.mb-4 Se debe tener presente:
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        p.mt-4 El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
+        p.mb-4 Se debe tener presente:
     .row.justify-content-center.align-items-center
       .col-lg-10(data-aos="fade-right")
         .tarjeta-bg3.p-4
           ul.lista-ul
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | Practicar constantemente para afianzar los conocimientos adquiridos.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | El uso de diagramas de flujo puede ayudar a visualizar la lógica de un algoritmo antes de implementarlo.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | Los errores son parte del proceso de aprendizaje y permiten mejorar las habilidades del programador.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | El trabajo en equipo y el uso de herramientas colaborativas son fundamentales en proyectos de #[i software].
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | Comprender estos conceptos facilita el aprendizaje de cualquier lenguaje de programación.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | La abstracción permite simplificar problemas complejos en partes manejables.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | La programación es una habilidad clave en la transformación digital actual.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | El uso de estándares mejora la calidad del código.
 
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | La revisión de código permite detectar errores y mejorar soluciones.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | El aprendizaje de la programación también implica desarrollar habilidades de pensamiento lógico y resolución de problemas.
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -346,19 +356,19 @@
               .col-lg-10
                 ul.lista-ul
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | El código fuente se traduce completamente a lenguaje máquina antes de ejecutarse.
 
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | Se genera un archivo ejecutable independiente del código original.
 
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | Ofrecen mayor rendimiento y eficiencia en tiempo de ejecución.
 
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | Detectan muchos errores en tiempo de compilación.
           p #[b Ejemplos:] C, C++, Go, Rust.
           p.mb-0 El proceso de compilación transforma el código escrito por el programador en instrucciones que el procesador puede ejecutar directamente. Esto permite que los programas sean rápidos y eficientes, especialmente en sistemas donde el rendimiento es crítico.
@@ -379,19 +389,19 @@
               .col-lg-10
                 ul.lista-ul
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | El código se ejecuta línea por línea mediante un intérprete.
 
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | No se genera un archivo ejecutable independiente.
 
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | Son más flexibles y fáciles de depurar.
 
                   li
-                    i.fas.fa-cloud-arrow-down
+                    i.fas.fa-circle
                     | Permiten mayor portabilidad entre sistemas.
           p #[b Ejemplos:] Python, JavaScript, Ruby.
           p.mb-0 En los lenguajes interpretados, el intérprete analiza y ejecuta el código en tiempo real. Esto facilita la experimentación y el desarrollo rápido, aunque puede implicar menor rendimiento en comparación con los compilados. 

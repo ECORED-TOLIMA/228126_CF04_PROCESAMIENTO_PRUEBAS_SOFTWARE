@@ -10,43 +10,45 @@
     p En la ingeniería de #[i software], los entornos de trabajo y la correcta configuración de un proyecto son fundamentales para crear aplicaciones robustas, mantenibles y escalables. Estas plataformas no solo facilitan la escritura de código, sino que incorporan herramientas para depurar, probar, administrar dependencias y gestionar versiones. Una configuración adecuada asegura el funcionamiento coherente de los componentes en contextos como prueba, implementación y producción.
     p.mb-4 Un entorno de desarrollo es el conjunto de herramientas que permiten a los programadores crear #[i software] de forma eficiente. Estos entornos pueden variar desde editores simples hasta plataformas altamente integradas, encontrando:
 
-    .row.justify-content-center.BG02.p-4
-      .col-lg-4.d-none.d-lg-block
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema2/img1.png", alt="").img400.m-auto
-      .col-lg-8
-        p.mb-5
-        SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-6")
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-5
-                img(src="@/assets/curso/temas/tema2/img2.svg", alt="").img100.m-auto
-            h5.text-center IDE (Entorno de Desarrollo Integrado)
-            p.text-center.mb-0 Incluyen herramientas completas como depuradores, compiladores y gestión de proyectos (IntelliJ, Eclipse, Visual Studio).
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-5
-                img(src="@/assets/curso/temas/tema2/img3.svg", alt="").img100.m-auto
-            h5.text-center Editores de código
-            p.text-center.mb-0 Son ligeros y extensibles mediante plugins (Visual Studio Code, Sublime Text).
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-5
-                img(src="@/assets/curso/temas/tema2/img4.svg", alt="").img100.m-auto
-            h5.text-center Entornos en la nube
-            p.text-center.mb-0 Permiten programar desde cualquier lugar sin instalar #[i software] (GitHub Codespaces, Replit).
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-5
-                img(src="@/assets/curso/temas/tema2/img5.svg", alt="").img100.m-auto
-            h5.text-center Terminales y CLI
-            p.text-center.mb-0 Interfaces basadas en comandos para automatización y control avanzado.
-          .tarjeta.tarjeta--slyder.p-4
-            .row.justify-content-center.mb-3
-              .col-5
-                img(src="@/assets/curso/temas/tema2/img6.svg", alt="").img100.m-auto
-            h5.text-center Herramientas de depuración
-            p.text-center.mb-0 Permiten identificar errores paso a paso durante la ejecución.
+    .row.justify-content-center.BG06
+      .col-12
+        .row.justify-content-center.align-items-center
+          .col-lg-4.d-none.d-lg-block
+            figure(data-aos="zoom-in")
+              img(src="@/assets/curso/temas/tema2/img1.png", alt="").img400.m-auto
+          .col-lg-7
+            p.mb-5
+            SlyderF.custom.mb-5(columnas="col-lg-6 col-xl-6")
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/temas/tema2/img2.svg", alt="").img100.m-auto
+                h5.text-center IDE (Entorno de Desarrollo Integrado)
+                p.text-center.mb-0 Incluyen herramientas completas como depuradores, compiladores y gestión de proyectos (IntelliJ, Eclipse, Visual Studio).
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/temas/tema2/img3.svg", alt="").img100.m-auto
+                h5.text-center Editores de código
+                p.text-center.mb-0 Son ligeros y extensibles mediante plugins (Visual Studio Code, Sublime Text).
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/temas/tema2/img4.svg", alt="").img100.m-auto
+                h5.text-center Entornos en la nube
+                p.text-center.mb-0 Permiten programar desde cualquier lugar sin instalar #[i software] (GitHub Codespaces, Replit).
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/temas/tema2/img5.svg", alt="").img100.m-auto
+                h5.text-center Terminales y CLI
+                p.text-center.mb-0 Interfaces basadas en comandos para automatización y control avanzado.
+              .tarjeta.tarjeta--slyder.p-4
+                .row.justify-content-center.mb-3
+                  .col-5
+                    img(src="@/assets/curso/temas/tema2/img6.svg", alt="").img100.m-auto
+                h5.text-center Herramientas de depuración
+                p.text-center.mb-0 Permiten identificar errores paso a paso durante la ejecución.
 
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -62,19 +64,19 @@
               p.mb-4 Dentro de sus funcionalidades clave se destacan:
               ul.lista-ul
                 li
-                  i.fas.fa-cloud-arrow-down
+                  i.fas.fa-file-code
                   | Resaltado de sintaxis que mejora la legibilidad.
 
                 li
-                  i.fas.fa-cloud-arrow-down
+                  i.fas.fa-file-code
                   | Autocompletado inteligente que reduce errores.
 
                 li
-                  i.fas.fa-cloud-arrow-down
+                  i.fas.fa-file-code
                   | Depuración paso a paso.
 
                 li
-                  i.fas.fa-cloud-arrow-down
+                  i.fas.fa-file-code
                   | Integración con control de versiones.
 
           .col-lg-6
@@ -153,29 +155,29 @@
         .titulo.mb-4(data-aos="fade-left")
           img(src='@/assets/curso/icon.svg', alt='')
           h5 a) Instalación de herramientas básicas
-        .row.justify-content-center.align-items-center.mb-4
-            .col-lg-12
-              .bloque-texto-gg.bloque-texto-gg--inverso.tarjeta-bg1
-                .bloque-texto-gg__texto.p-4
-                  ul.lista-ul
-                    li
-                      i.fas.fa-cloud-arrow-down
-                      | Instalar Node.js: esto permite ejecutar JavaScript fuera del navegador.
-                    li
-                      i.fas.fa-cloud-arrow-down
-                      | Instalar npm (gestor de paquetes incluido con Node.js).
-                    li
-                      i.fas.fa-cloud-arrow-down
-                      | Instalar un editor de código como Visual Studio Code.
-                    li
-                      i.fas.fa-cloud-arrow-down
-                      | Instalar Git para control de versiones.
 
-                .bloque-texto-gg__img(
-                  :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img9.png')})`}"
-                )
 
-        p.mb-4 Node.js es esencial porque proporciona el entorno de ejecución para JavaScript en el servidor. Además, npm permite instalar librerías necesarias para el desarrollo.
+        .row.align-items-center.mt-4.justify-content-center.bg-01(data-aos="fade-down")
+          .col-lg-4.d-none.d-lg-block.order-2
+            figure
+              img(src='@/assets/curso/temas/tema2/img9.svg', alt='', style="width: 390px; margin-left: 10px")
+          .col-lg-8
+            ul.lista-ul
+              li
+                i.fas.fa-circle
+                | Instalar Node.js: esto permite ejecutar JavaScript fuera del navegador.
+              li
+                i.fas.fa-circle
+                | Instalar npm (gestor de paquetes incluido con Node.js).
+              li
+                i.fas.fa-circle
+                | Instalar un editor de código como Visual Studio Code.
+              li
+                i.fas.fa-circle
+                | Instalar Git para control de versiones.
+        
+
+        p.mt-4 Node.js es esencial porque proporciona el entorno de ejecución para JavaScript en el servidor. Además, npm permite instalar librerías necesarias para el desarrollo.
 
         .tarjeta.tarjeta-bg8.p-3(data-aos="zoom-in")
           .row.justify-content-between.align-items-center
@@ -201,38 +203,38 @@
               h5 b) Configuración del entorno
             ul.lista-ul.mb-5
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Verificar instalación con comandos: node -v y npm -v.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Configurar variables de entorno si es necesario.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Instalar extensiones en VS Code (ESLint, Prettier, Live Server).
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Configurar formato automático de código.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Inicializar proyecto con npm init.
             .titulo.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/icon.svg', alt='')
               h5 c) Buenas prácticas en JavaScript
             ul.lista-ul.mb-0
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Usar ESLint para detectar errores.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Formatear código con Prettier.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Usar control de versiones con Git.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Organizar el proyecto correctamente.
               li
-                i.fas.fa-cloud-arrow-down
+                i.fas.fa-file-code
                 | Actualizar dependencias regularmente.
     p Un entorno de JavaScript bien configurado mejora la productividad, permitiendo a los desarrolladores trabajar de manera más eficiente y profesional.
     p.mb-4 Como base de apoyo a los procesos de instalación de JavaScript se presentan las siguientes guías: 
@@ -389,12 +391,15 @@
       img(src='@/assets/curso/icon.svg', alt='')
       h5 Documentación técnica - Especificación API
     p.mb-4 Se indica el propósito y breve descripción de cada método/función, con su prototipo indicando argumentos (nombre, tipo, propósito de cada uno) y respuesta (tipo, descripción).
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.mt-4
       .col-lg-10
-        .cajon-color-secundario.p-5.mb-4
-          p Para llevar a cabo esta tarea, es posible utilizar una variedad de herramientas de generación de documentación automática, a partir del código en el encabezado de cada función (Javadoc, PHPDoc, Doxygen, etc).
-          p.mb-0 La documentación técnica debe pensarse como el manual del programador y apuntar a aquellas personas que estarán a cargo de mantener, ampliar o crear un proyecto derivado a partir de nuestro proyecto.
-    p.mb-4.text-center Para finalizar, se dan los siguientes aspectos relevantes que se deben tener presentes:
+        .row.align-items-center
+          .col-lg-12
+            .cajon.c01.color-secundario.p-4
+              p Para llevar a cabo esta tarea, es posible utilizar una variedad de herramientas de generación de documentación automática, a partir del código en el encabezado de cada función (Javadoc, PHPDoc, Doxygen, etc).
+              p.mb-0 La documentación técnica debe pensarse como el manual del programador y apuntar a aquellas personas que estarán a cargo de mantener, ampliar o crear un proyecto derivado a partir de nuestro proyecto.
+          
+    p.mt-4.text-center Para finalizar, se dan los siguientes aspectos relevantes que se deben tener presentes:
     .BG04.p-5.px-5
       .tarjeta.tarjeta--blanca.p-4
         SlyderA(tipo="b")

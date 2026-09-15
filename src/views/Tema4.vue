@@ -63,7 +63,7 @@
           p.mb-2 Permite encontrar un elemento dentro de una lista.
           p.mb-2 Ejemplo:
 
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
               p.text-white.mb-1 function buscar(lista, valor) {
               p.text-white.mb-1    for (let i = 0; i < lista.length; i++) {
               p.text-white.mb-1      if (lista[i] === valor) return i;
@@ -76,7 +76,7 @@
           p.mb-2 Permite organizar los datos.
           p.mb-2 Ejemplo:
 
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
               p.text-white.mb-1 function ordenar(lista) {
               p.text-white.mb-1  for (let i = 0; i < lista.length; i++) {
               p.text-white.mb-1    for (let j = 0; j < lista.length - 1; j++) {
@@ -94,7 +94,7 @@
           p.mb-2 Consiste en visitar cada elemento de una estructura.
           p.mb-2 Ejemplo:
 
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
               p.text-white.mb-1 let numeros = [1,2,3];
               p.text-white.mb-1  numeros.forEach(n => console.log(n));          
 
@@ -133,41 +133,41 @@
               .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #81d4fa;")
               .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #b39ddb;")
               .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #4dd0e1;")
-          .p-4(style="background-color: #0d0d2b;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 public class EjemploArreglo {
-                p.text-white.ms-2.mb-1 public static void main(String[] args) {
-                p.text-white.ms-3.mb-1 // Declaración e inicialización de un arreglo
-                p.text-white.ms-3.mb-1 int[] numeros = {10, 20, 30, 40, 50};
-                p.text-white.ms-3.mb-1 // Acceso a un elemento del arreglo
-                p.text-white.ms-3.mb-1 System.out.println("Primer elemento: " + numeros[0]);
-                p.text-white.ms-3.mb-1 // Modificar un elemento
-                p.text-white.ms-3.mb-1 numeros[2] = 35;
-                p.text-white.ms-3.mb-1 // Recorrer el arreglo con un ciclo for
-                p.text-white.ms-3.mb-1 System.out.println("Elementos del arreglo:");
-                p.text-white.ms-3.mb-1 for (int i = 0; i < numeros.length; i++) {
-                p.text-white.ms-4.mb-1 System.out.println(numeros[i]);
-                p.text-white.ms-3.mb-1 }
-                p.text-white.ms-2.mb-1 } // Fin del método main
-                p.text-white.mb-1 } // Fin de la clase EjemploArreglo
-        .cajon.c01.p-4.mb-5
+                p.mb-1 public class EjemploArreglo {
+                p.ms-2.mb-1 public static void main(String[] args) {
+                p.ms-3.mb-1 // Declaración e inicialización de un arreglo
+                p.ms-3.mb-1 int[] numeros = {10, 20, 30, 40, 50};
+                p.ms-3.mb-1 // Acceso a un elemento del arreglo
+                p.ms-3.mb-1 System.out.println("Primer elemento: " + numeros[0]);
+                p.ms-3.mb-1 // Modificar un elemento
+                p.ms-3.mb-1 numeros[2] = 35;
+                p.ms-3.mb-1 // Recorrer el arreglo con un ciclo for
+                p.ms-3.mb-1 System.out.println("Elementos del arreglo:");
+                p.ms-3.mb-1 for (int i = 0; i < numeros.length; i++) {
+                p.ms-4.mb-1 System.out.println(numeros[i]);
+                p.ms-3.mb-1 }
+                p.ms-2.mb-1 } // Fin del método main
+                p.mb-1 } // Fin de la clase EjemploArreglo
+        .cajon.c02.p-4.mb-5
           p.mb-3 Explicación:
           ul.lista-ul
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | int[] numeros → Declara un arreglo de enteros.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | {10, 20, 30, 40, 50} → Inicializa el arreglo con valores.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | numeros[0] → Accede al primer elemento (los índices empiezan en 0).
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | numeros.length → Obtiene el tamaño del arreglo.
             li
-              i.fas.fa-cloud-arrow-down
+              i.fas.fa-file-code
               | El for permite recorrer todos los elementos.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-4.mb-lg-0
@@ -190,11 +190,11 @@
               p.text-white.mb-1  ];   
     p.mb-4 Partiendo de lo anterior, se describen los aspectos fundamentales para trabajar con matrices en JavaScript, desde el acceso y recorrido de sus elementos hasta sus aplicaciones más comunes y algunas buenas prácticas que facilitan un uso correcto y eficiente de esta estructura de datos:
     
-    .row.justify-content-center.BG02.p-4
+    .row.justify-content-center.BG06
       .col-lg-4.d-none.d-lg-block
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema4/img7.png", alt="").img400.m-auto
-      .col-lg-8
+      .col-lg-6
         p.mb-5
         SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
           .tarjeta.tarjeta--slyder.p-4
@@ -305,24 +305,24 @@
     .tarjeta.color-primario.p-0.mt-3.overflow-hidden.mb-4
           .px-3.py-2(style="background-color: #311a6a; display: flex; align-items: center;")
             .d-flex
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #81d4fa;")
-              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #b39ddb;")
-              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #4dd0e1;")
-          .p-4(style="background-color: #0d0d2b;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FB130D;")
+              .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FECD02;")
+              .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #43DFAA;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 function burbuja(arr) {
-                p.text-white.ms-2.mb-1 for (let i = 0; i < arr.length; i++) {
-                p.text-white.ms-3.mb-1 for (let j = 0; j < arr.length - 1; j++) {
-                p.text-white.ms-4.mb-1 if (arr[j] > arr[j + 1]) {
-                p.text-white.ms-5.mb-1 let temp = arr[j];
-                p.text-white.ms-5.mb-1 arr[j] = arr[j + 1];
-                p.text-white.ms-5.mb-1 arr[j + 1] = temp;
-                p.text-white.ms-4.mb-1 }
-                p.text-white.ms-3.mb-1 }
-                p.text-white.ms-2.mb-1 }
-                p.text-white.ms-2.mb-1 return arr;
-                p.text-white.mb-1 } // Fin de la función burbuja
+                p.mb-1 function burbuja(arr) {
+                p.ms-2.mb-1 for (let i = 0; i < arr.length; i++) {
+                p.ms-3.mb-1 for (let j = 0; j < arr.length - 1; j++) {
+                p.ms-4.mb-1 if (arr[j] > arr[j + 1]) {
+                p.ms-5.mb-1 let temp = arr[j];
+                p.ms-5.mb-1 arr[j] = arr[j + 1];
+                p.ms-5.mb-1 arr[j + 1] = temp;
+                p.ms-4.mb-1 }
+                p.ms-3.mb-1 }
+                p.ms-2.mb-1 }
+                p.ms-2.mb-1 return arr;
+                p.mb-1 } // Fin de la función burbuja
 
     p.mb-4.text-center Estos algoritmos se dividen de la siguiente manera y se explican sus respectivas acciones:
     SlyderB.tarjeta--fondo3.p-4.mb-5(:datos="datosSlyder")
@@ -352,7 +352,7 @@
           img(src='@/assets/curso/icon.svg', alt='')
           h5 Método sort() en JavaScript
         p.mb-4 JavaScript incluye un método nativo para ordenar arreglos:
-        .tarjeta--fondo4.p-2.mb-4
+        .tarjeta--fondo12.p-2.mb-4
           p.mb-0.text-white.text-center array.sort((a,b)=>a-b);
         p.mb-0 Este método utiliza algoritmos optimizados internamente, por lo que es el más recomendado en la mayoría de los casos.
 

@@ -20,10 +20,10 @@
           ImagenInfografica.color-acento-botones
             template(v-slot:imagen)
               figure
-                img(src='@/assets/curso/temas/tema3/img1.png', alt='Figura 1 que contiene la página principal de la plataforma Zajuna del SENA, donde se muestra el acceso al aula virtual. Incluye un formulario de inicio de sesión, un aviso de seguridad sobre contraseñas, un menú lateral de servicios, accesos a cursos virtuales y secciones informativas con iconos y fotografías de aprendices.')
+                img(src='@/assets/curso/temas/tema3/img1.svg', alt='Figura 1 que contiene la página principal de la plataforma Zajuna del SENA, donde se muestra el acceso al aula virtual. Incluye un formulario de inicio de sesión, un aviso de seguridad sobre contraseñas, un menú lateral de servicios, accesos a cursos virtuales y secciones informativas con iconos y fotografías de aprendices.')
         .d-block.d-lg-none
           figure
-            img(src='@/assets/curso/temas/tema3/img1_1.png', alt='Figura 1 que contiene la página principal de la plataforma Zajuna del SENA, donde se muestra el acceso al aula virtual. Incluye un formulario de inicio de sesión, un aviso de seguridad sobre contraseñas, un menú lateral de servicios, accesos a cursos virtuales y secciones informativas con iconos y fotografías de aprendices.')
+            img(src='@/assets/curso/temas/tema3/img1_1.svg', alt='Figura 1 que contiene la página principal de la plataforma Zajuna del SENA, donde se muestra el acceso al aula virtual. Incluye un formulario de inicio de sesión, un aviso de seguridad sobre contraseñas, un menú lateral de servicios, accesos a cursos virtuales y secciones informativas con iconos y fotografías de aprendices.')
     p.mb-4 Un ejemplo concreto es la página Zajuna del SENA, donde gran parte de la interactividad se soporta en JavaScript. Gracias a ello, es posible encontrar efectos dinámicos como el resaltado de textos, sombras, animaciones y movimiento de imágenes, entre otros elementos que mejoran la experiencia del usuario.
     p.mb-4 Zajuna es una plataforma #[i web] interactiva que:
     .row.justify-content-center.mb-4
@@ -79,36 +79,36 @@
               .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #69D7E5;")
               .circle.me-1(style="width: 12px; height: 12px; border-radius: 50%; background-color: #6CB9FF;")
               .circle(style="width: 12px; height: 12px; border-radius: 50%; background-color: #FFD453;")
-          .p-4(style="background-color: #0d0d2b;")
+          .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.text-white.mb-1 MiClase.java
+                p.fa-file-codemb-1 MiClase.java
                 .row.justify-content-center
                   .col-lg-1
-                    p.text-white.mb-0 1
+                    p.fa-file-codemb-0 1
                   .col-lg-11
-                    p.text-white.mb-1 class MiClase { 
+                    p.fa-file-codemb-1 class MiClase { 
                 .row.justify-content-center
                   .col-lg-1
-                    p.text-white.mb-0 2
+                    p.fa-file-codemb-0 2
                   .col-lg-11
-                    p.text-white.mb-2 public static void main(String[] args){ 
+                    p.fa-file-codemb-2 public static void main(String[] args){ 
                 .row.justify-content-center
                   .col-lg-1
-                    p.text-white.mb-0 3
+                    p.fa-file-codemb-0 3
                   .col-lg-11
-                    p.text-white.ms-3.mb-1  System.out.println(“Hola mundo”);
+                    p.fa-file-codems-3.mb-1  System.out.println(“Hola mundo”);
                 .row.justify-content-center
                   .col-lg-1
-                    p.text-white.mb-0 4
+                    p.fa-file-codemb-0 4
                   .col-lg-11
-                    p.text-white.ms-2.mb-1    } // Fin del método main 
+                    p.fa-file-codems-2.mb-1    } // Fin del método main 
                 .row.justify-content-center
                   .col-lg-1
-                    p.text-white.mb-0 5
+                    p.fa-file-codemb-0 5
                   .col-lg-11
-                    p.text-white.ms-1.mb-2   } // Fin de la clase MiClase
-                p.text-white.mb-1 Hola mundo
+                    p.fa-file-codems-1.mb-2   } // Fin de la clase MiClase
+                p.fa-file-codemb-1 Hola mundo
           figcaption #[b Nota:] escriba el código del ejemplo anterior en un editor de texto plano, guarde el archivo con el nombre y extensión.            
         .tarjeta-bg10.p-4
           .row.justify-content-center.align-items-center
@@ -441,56 +441,58 @@
         p.mb-4 En JavaScript, una expresión es cualquier fragmento de código que produce un valor. Las expresiones son la base de la programación, ya que permiten realizar cálculos, comparaciones, asignaciones y evaluaciones lógicas dentro de un programa.
         p.mb-0 Los siguientes son los tipos de expresiones:
     
-    .row.justify-content-center.BG02.p-4
-      .col-lg-4.d-none.d-lg-block
-        figure(data-aos="zoom-in")
-          img(src="@/assets/curso/temas/tema3/img21.png", alt="").img400.m-auto
-      .col-lg-8
-        p.mb-5
-        SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
-          .tarjeta.tarjeta--slyder.p-4
-            p.mb-3 #[b • Expresiones aritméticas]
-            p.mb-3 Se utilizan para realizar operaciones matemáticas como suma, resta, multiplicación y división.
-            p.mb-3 Ejemplo:
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let resultado = 5 + 3 * 2; // Resultado: 11
-          .tarjeta.tarjeta--slyder.p-4
-            p.mb-3 #[b • Expresiones relacionales]
-            p.mb-3 Sirven para comparar valores y devuelven un resultado booleano (true o false).
-            p.mb-3 Ejemplo:
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let esMayor = 10 > 5; // true
-          .tarjeta.tarjeta--slyder.p-4
-            p.mb-3 #[b • Expresiones lógicas]
-            p.mb-3 Permiten combinar condiciones utilizando operadores como AND (&&), OR (||) y NOT (!).
-            p.mb-3 Ejemplo:
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let valido = (10 > 5) && (3 < 8); // true
-          .tarjeta.tarjeta--slyder.p-4
-            p.mb-3 #[b • Expresiones de asignación]
-            p.mb-3 Se usan para asignar valores a variables.
-            p.mb-3 Ejemplo:
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let x = 10;
-          .tarjeta.tarjeta--slyder.p-4
-            p.mb-3 #[b • Expresiones de cadena]
-            p.mb-3 Permiten trabajar con texto (strings).
-            p.mb-3 Ejemplo:
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white let saludo = 'Hola ' + 'mundo';
-          .tarjeta.tarjeta--slyder.p-4
-            p.mb-3 #[b • Expresiones de función]
-            p.mb-3 Son funciones definidas dentro de una expresión.
-            p.mb-3 Ejemplo:
-            .p-2
-              .tarjeta--fondo4.p-2
-                p.mb-0.text-white const suma = function(a, b) { return a + b; };
-    .row.justify-content-center.align-items-center
+    .row.justify-content-center.BG06
+      .col-12
+        .row.justify-content-center.align-items-center
+            .col-lg-4.d-none.d-lg-block
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/temas/tema3/img21.png", alt="").img400.m-auto
+            .col-lg-7
+              p.mb-5
+              SlyderF.custom.mb-5(columnas="col-lg-12 col-xl-12")
+                .tarjeta.tarjeta--slyder.p-4
+                  p.mb-3 #[b • Expresiones aritméticas]
+                  p.mb-3 Se utilizan para realizar operaciones matemáticas como suma, resta, multiplicación y división.
+                  p.mb-3 Ejemplo:
+                  .p-2
+                    .tarjeta--fondo4.p-2
+                      p.mb-0.text-white let resultado = 5 + 3 * 2; // Resultado: 11
+                .tarjeta.tarjeta--slyder.p-4
+                  p.mb-3 #[b • Expresiones relacionales]
+                  p.mb-3 Sirven para comparar valores y devuelven un resultado booleano (true o false).
+                  p.mb-3 Ejemplo:
+                  .p-2
+                    .tarjeta--fondo4.p-2
+                      p.mb-0.text-white let esMayor = 10 > 5; // true
+                .tarjeta.tarjeta--slyder.p-4
+                  p.mb-3 #[b • Expresiones lógicas]
+                  p.mb-3 Permiten combinar condiciones utilizando operadores como AND (&&), OR (||) y NOT (!).
+                  p.mb-3 Ejemplo:
+                  .p-2
+                    .tarjeta--fondo4.p-2
+                      p.mb-0.text-white let valido = (10 > 5) && (3 < 8); // true
+                .tarjeta.tarjeta--slyder.p-4
+                  p.mb-3 #[b • Expresiones de asignación]
+                  p.mb-3 Se usan para asignar valores a variables.
+                  p.mb-3 Ejemplo:
+                  .p-2
+                    .tarjeta--fondo4.p-2
+                      p.mb-0.text-white let x = 10;
+                .tarjeta.tarjeta--slyder.p-4
+                  p.mb-3 #[b • Expresiones de cadena]
+                  p.mb-3 Permiten trabajar con texto (strings).
+                  p.mb-3 Ejemplo:
+                  .p-2
+                    .tarjeta--fondo4.p-2
+                      p.mb-0.text-white let saludo = 'Hola ' + 'mundo';
+                .tarjeta.tarjeta--slyder.p-4
+                  p.mb-3 #[b • Expresiones de función]
+                  p.mb-3 Son funciones definidas dentro de una expresión.
+                  p.mb-3 Ejemplo:
+                  .p-2
+                    .tarjeta--fondo4.p-2
+                      p.mb-0.text-white const suma = function(a, b) { return a + b; };
+    .row.justify-content-center.align-items-center.mt-4
       .col-lg-10
         .tarjeta--fondo10.p-4.mb-4
           p.mb-2 Las expresiones en JavaScript se evalúan siguiendo reglas de precedencia, asociatividad y uso de paréntesis.
@@ -533,7 +535,7 @@
           p.mb-3 #[b Funciones con parámetros]
           p.mb-0 Las funciones pueden recibir datos de entrada llamados parámetros.
           p.mb-0 #[b Ejemplo: ]
-          .tarjeta--fondo4.p-2
+          .tarjeta--fondo12.p-2
             p.mb-0.text-white function sumar(a, b) {
             p.mb-0.text-white  return a + b;
             p.mb-0.text-white }
@@ -549,7 +551,7 @@
           p.mb-3 #[b Funciones anónimas]
           p.mb-0 Son funciones sin nombre que pueden asignarse a una variable.
           p.mb-0 #[b Ejemplo: ]
-          .tarjeta--fondo4.p-2
+          .tarjeta--fondo12.p-2
             p.mb-0.text-white const saludo = function() {
             p.mb-0.text-white  console.log('Hola');
             p.mb-0.text-white };
@@ -565,7 +567,7 @@
           p.mb-3 #[b Ámbito (#[i scope]) de las funciones]
           p.mb-0 El #[i scope] define el alcance de las variables dentro de una función.
           p.mb-0 #[b Ejemplo: ]
-          .tarjeta--fondo4.p-2
+          .tarjeta--fondo12.p-2
             p.mb-0.text-white function ejemplo() {
             p.mb-0.text-white  let x = 10;
             p.mb-0.text-white }
@@ -749,7 +751,7 @@
         p.mb-4 Soluciones sugeridas:
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-4.h-100
-            .tarjeta--fondo4.p-2
+            .tarjeta--fondo12.p-2
               ol.lista-ol--cuadro
               li.text-white
                 .lista-ol--cuadro__vineta
@@ -760,7 +762,7 @@
                 |    console.log('Menor de edad');<br>
                 |  }
           .col-lg-4.h-100
-            .tarjeta--fondo4.p-2
+            .tarjeta--fondo12.p-2
               ol.lista-ol--cuadro
               li.text-white
                 .lista-ol--cuadro__vineta
@@ -771,7 +773,7 @@
                 |    console.log(b);<br>
                 |  }
           .col-lg-4.h-100
-            .tarjeta--fondo4.p-2
+            .tarjeta--fondo12.p-2
               ol.lista-ol--cuadro
               li.text-white
                 .lista-ol--cuadro__vineta
@@ -810,7 +812,7 @@
           p.mb-4 En la sección de iniciación se puede declarar una variable de control del ciclo, cuyo alcance estará limitado al propio bucle. Tanto en la parte de iniciación como en la de incremento se pueden incluir varias expresiones separadas por comas, pero esto no es permitido en la parte de la condición.
           p.mb-4 La condición debe ser una expresión booleana o una expresión que se evalúe como un valor booleano.
           p.mb-4 Ejemplos:
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
             p.text-white.mb-1 for (int i=0;i<=5;i++){
             p.text-white.mb-1  /* variable inicial = i, condición i menor o igual a 5, incremento i++ equivalente a i+1 */
             p.text-white.mb-1  System.out.println("hola");
@@ -831,7 +833,7 @@
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-6
-            .tarjeta--fondo4.p-4
+            .tarjeta--fondo12.p-4
               p.text-white.mb-1 while(condición) {
               p.text-white.mb-1  // Bloque de instrucciones
               p.text-white.mb-1  }
@@ -922,7 +924,7 @@
         .cajon.c01.p-4.h-100
           p.mb-2 Crear un ciclo que imprima números del 1 al 10, pero que se detenga cuando llegue a 6.
 
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
               p.text-white.mb-1 for (let i = 1; i <= 10; i++) {
               p.text-white.mb-1    if (i === 6) break;
               p.text-white.mb-1    console.log(i);
@@ -931,7 +933,7 @@
         .cajon.c01.p-4.h-100
           p.mb-2 Crear un ciclo que imprima números del 1 al 10, pero que omita el número 5.
 
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
               p.text-white.mb-1 for (let i = 1; i <= 10; i++) {
               p.text-white.mb-1    if (i === 5) continue;
               p.text-white.mb-1    console.log(i);
@@ -940,7 +942,7 @@
         .cajon.c01.p-4.h-100
           p.mb-2 Crear una función que reciba un número y retorne si es par o impar.
 
-          .tarjeta--fondo4.p-4.mb-4
+          .tarjeta--fondo12.p-4.mb-4
               p.text-white.mb-1 function esPar(n) {
               p.text-white.mb-1    return (n % 2 === 0) ? 'Par' : 'Impar';
               p.text-white.mb-1  }
