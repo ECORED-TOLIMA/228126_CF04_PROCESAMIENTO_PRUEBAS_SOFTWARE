@@ -42,7 +42,7 @@
             p.mb-3 Permite mostrar información en la consola.
             p.mb-3 Ejemplo:
             .p-2
-              .tarjeta--fondo4.p-2
+              .tarjeta--fondo5.p-2
                 p.mb-0.text-white let nombre = 'Carlos';
                 p.mb-0.text-white console.log(nombre);
                 p.mb-0.text-white Resultado: Carlos
@@ -51,7 +51,7 @@
             p.mb-3 Permiten inspeccionar, depurar y analizar el comportamiento del código directamente en el navegador.
             p.mb-3 Ejemplo:
             .p-2
-              .tarjeta--fondo4.p-2
+              .tarjeta--fondo5.p-2
                 p.mb-0.text-white let edad = 18;
                 p.mb-0.text-white let resultado = edad >= 18 ? "Mayor de edad" : "Menor de edad";
           .tarjeta.tarjeta--slyder.p-4
@@ -59,7 +59,7 @@
             p.mb-3 Permiten pausar la ejecución del programa en una línea específica.
             p.mb-3 Ejemplo:
             .p-2
-              .tarjeta--fondo4.p-2
+              .tarjeta--fondo5.p-2
                 p.mb-0.text-white for (let i = 0; i < 5; i++) {
                 p.mb-0.text-white    // breakpoint aquí
                 p.mb-0.text-white  }
@@ -68,7 +68,7 @@
             p.mb-3 Detiene la ejecución del código desde el propio programa.
             p.mb-3 Ejemplo:
             .p-2
-              .tarjeta--fondo4.p-2
+              .tarjeta--fondo5.p-2
                 p.mb-0.text-white function prueba() {
                 p.mb-0.text-white    debugger;
                 p.mb-0.text-white    let x = 10;
@@ -77,12 +77,12 @@
             p.mb-3 #[b • Visual Studio Code]
             p.mb-3 Editor de código que permite depuración avanzada.
             .p-2
-              .tarjeta--fondo4.p-2
+              .tarjeta--fondo5.p-2
                 p.mb-0.text-white function suma(a, b) {
                 p.mb-0.text-white    return a + b;
                 p.mb-0.text-white  }
                 p.mb-0.text-white  console.log(suma(2,3));
-    p.mb-4.text-center Igualmente, para detectar errores en Java existen unas técnicas de depuración, como son: 
+    p.mt-4 Igualmente, para detectar errores en Java existen unas técnicas de depuración, como son: 
     .tarjeta--container.row
       .col-md.tarjeta--fondo9.p-5
         .row.justify-content-center.mb-4

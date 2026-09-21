@@ -316,10 +316,10 @@
     p Un #[i software] de tamaño pequeño está compuesto por varios módulos o partes interconectados. La especificación de la arquitectura del sistema de información define cuáles son estas partes, qué rol tienen dentro del software y cómo se organizan e interconectan.
     p.mb-4 La información sobre la arquitectura debe incluir como mínimo:
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-4.col-6.mb-4.mb-lg-0
+      .col-lg-5.col-6.mb-4.mb-lg-0
         figure
-          img(src='@/assets/curso/temas/tema2/img21.png', alt='')
-      .col-lg-8
+          img(src='@/assets/curso/temas/tema2/img21.png', style="width: 500px")
+      .col-lg-7
         
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Descripción jerárquica")

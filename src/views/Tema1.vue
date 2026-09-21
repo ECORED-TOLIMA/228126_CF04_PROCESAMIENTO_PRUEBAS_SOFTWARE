@@ -8,7 +8,7 @@
       h1 Fundamentos de programación
     
     p.mb-4(data-aos="flip-up") Los fundamentos de programación constituyen la base esencial para el desarrollo de #[i software] o sistemas de información, permitiendo a los programadores comprender cómo diseñar, estructurar y ejecutar soluciones computacionales eficientes según la necesidad del cliente. Estos fundamentos incluyen conceptos clave como algoritmos, estructuras de control, tipos de datos y lógica de programación, los cuales son necesarios para resolver problemas de manera sistemática.    
-    .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-5(data-aos="flip-up")
+    .bloque-texto-gg.bloque-texto-gg--inverso.color-primario.mb-5.tarjeta-bg12(data-aos="flip-up")
       .bloque-texto-gg__texto.p-4
         p.mb-4 Uno de los elementos principales en la programación es el algoritmo, que se define como una serie de pasos ordenados y finitos que permiten resolver un problema específico. Los algoritmos deben ser claros, precisos y eficientes, ya que de ellos depende el rendimiento del programa.
         p.mb-0 En la programación también se utilizan variables, que son espacios en memoria donde se almacenan datos que pueden cambiar durante la ejecución del programa. Estas variables tienen tipos de datos específicos como números, cadenas de texto o valores booleanos.
