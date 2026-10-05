@@ -130,21 +130,27 @@
                     span.d-block -9,223,372,036,854,775,808
                     span.d-block a
                     span.d-block 9,223,372,036,854,775,807
-                  td.text-center 0L
+                  td.text-center 0
                   td Long
                 tr
                   td(style="background-color: #F0F8FF").text-center: b float
-                  td(style="background-color: #F0F8FF") Coma flotante (simple, IEEE 754)
+                  td(style="background-color: #F0F8FF") Numérico en coma flotante (simple, IEEE 754)
                   td(style="background-color: #F0F8FF").text-center 4
-                  td(style="background-color: #F0F8FF") ±3.4×10^38
-                  td(style="background-color: #F0F8FF").text-center 0.0f
+                  td(style="background-color: #F0F8FF") 
+                    span.d-block ±3.4×10^-38 
+                    span.d-block a
+                    span.d-block ±3.4×10^38
+                  td(style="background-color: #F0F8FF").text-center 0.0
                   td(style="background-color: #F0F8FF") Float
                 tr
                   td.text-center: b double
-                  td Coma flotante (doble, IEEE 754)
+                  td Numérico en coma flotante (doble, IEEE 754)
                   td.text-center 8
-                  td ±1.8×10^308
-                  td.text-center 0.0d
+                  td 
+                    span.d-block ±1.8×10^-308 
+                    span.d-block a
+                    span.d-block ±1.8×10^308
+                  td.text-center 0.0
                   td Double
                 tr
                   td(style="background-color: #F0F8FF").text-center: b char
@@ -162,7 +168,7 @@
                   td Boolean
                 tr
                   td(style="background-color: #F0F8FF").text-center: b void
-                  td(style="background-color: #F0F8FF") Ausencia de valor
+                  td(style="background-color: #F0F8FF") -
                   td(style="background-color: #F0F8FF").text-center -
                   td(style="background-color: #F0F8FF") -
                   td(style="background-color: #F0F8FF").text-center -

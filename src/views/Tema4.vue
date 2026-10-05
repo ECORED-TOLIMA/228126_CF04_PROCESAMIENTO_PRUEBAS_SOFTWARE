@@ -149,8 +149,8 @@
                 p.ms-3.mb-1 for (int i = 0; i < numeros.length; i++) {
                 p.ms-4.mb-1 System.out.println(numeros[i]);
                 p.ms-3.mb-1 }
-                p.ms-2.mb-1 } // Fin del método main
-                p.mb-1 } // Fin de la clase EjemploArreglo
+                p.ms-2.mb-1 } 
+                p.mb-1 } 
         .cajon.c02.p-4.mb-5
           p.mb-3 Explicación:
           ul.lista-ul
@@ -322,7 +322,7 @@
                 p.ms-3.mb-1 }
                 p.ms-2.mb-1 }
                 p.ms-2.mb-1 return arr;
-                p.mb-1 } // Fin de la función burbuja
+                p.mb-1 } 
 
     p.mb-4.text-center Estos algoritmos se dividen de la siguiente manera y se explican sus respectivas acciones:
     SlyderB.tarjeta--fondo3.p-4.mb-5(:datos="datosSlyder")
