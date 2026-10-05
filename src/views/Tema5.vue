@@ -6,13 +6,13 @@
       .titulo-principal__numero
         span 5
       h1 Depuración y manejo de errores en programas
-    p.mb-4 En el desarrollo de aplicaciones, los errores y las excepciones son inevitables. Al tener el rol de programadores, se posee la responsabilidad manejarlos adecuadamente para evitar que la experiencia del usuario se vea afectada. Una correcta gestión de errores también permite a los desarrolladores depurar el código y comprender mejor sus causas para poder solucionarlos de manera eficiente.
+    p.mb-4 En el desarrollo de aplicaciones, los errores y las excepciones son inevitables. Al tener el rol de programadores, se posee la responsabilidad de manejarlos adecuadamente para evitar que la experiencia del usuario se vea afectada. Una correcta gestión de errores también permite a los desarrolladores depurar el código y comprender mejor sus causas para poder solucionarlos de manera eficiente.
     .bloque-texto-g.C01.p-3.p-sm-4.p-md-5.mb-4
         .bloque-texto-g__img(
           :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 JavaScript ha sido un lenguaje de programación ampliamente utilizado durante más de tres décadas. Con él se desarrollan aplicaciones web, móviles, PWA y del lado del servidor, utilizando diversas bibliotecas populares (como ReactJS) y frameworks (como Next.js, Remix, entre otros).
+          p.mb-0 JavaScript ha sido un lenguaje de programación ampliamente utilizado durante más de tres décadas. Con él se desarrollan aplicaciones web, móviles, PWA y del lado del servidor, utilizando diversas bibliotecas populares (como ReactJS) y <em>frameworks</em> (como Next.js, Remix, entre otros).
     
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -76,6 +76,7 @@
           .tarjeta.tarjeta--slyder.p-4
             p.mb-3 #[b • Visual Studio Code]
             p.mb-3 Editor de código que permite depuración avanzada.
+            p.mb-3 Ejemplo:
             .p-2
               .tarjeta--fondo5.p-2
                 p.mb-0.text-white function suma(a, b) {
@@ -116,7 +117,7 @@
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 5.2 Fallas de sintaxis
     p.mb-4 En el desarrollo de #[i software], uno de los errores más comunes que enfrentan los programadores son las fallas de sintaxis, también conocidas como SyntaxError. Estas ocurren cuando el código escrito no cumple con las reglas gramaticales del lenguaje de programación, impidiendo que el intérprete o el motor de JavaScript pueda comprender y ejecutar correctamente el programa.
-    p.mb-4 JavaScript, al ser un lenguaje interpretado, analiza el código antes de ejecutarlo. Durante este proceso, si detecta una estructura incorrecta — como paréntesis sin cerrar, comillas mal utilizadas, palabras reservadas mal escritas o una mala organización del código — genera un error de sintaxis y detiene la ejecución del programa. Esto significa que, a diferencia de otros errores, las fallas de sintaxis deben corregirse obligatoriamente antes de que el código pueda ejecutarse.                
+    p.mb-4 JavaScript, al ser un lenguaje interpretado, analiza el código antes de ejecutarlo. Durante este proceso, si detecta una estructura incorrecta —como paréntesis sin cerrar, comillas mal utilizadas, palabras reservadas mal escritas o una mala organización del código—, genera un error de sintaxis y detiene la ejecución del programa.  Esto significa que, a diferencia de otros errores, las fallas de sintaxis deben corregirse obligatoriamente antes de que el código pueda ejecutarse.                
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .row.justify-content-center.align-items-center.mb-4
@@ -182,7 +183,6 @@
           .p-4(style="background-color: #F5F2F0;")
             .row.align-items-center
               .col-md-8.mb-3.mb-md-0
-                p.mb-1 manejoErrores.js
                 p.mb-1 function checkAge(age) {
                 p.ms-2.mb-1 if (age < 18) {
                 p.ms-3.mb-1 throw new Error("You must be 18 or older.");
@@ -194,7 +194,7 @@
                 p.ms-2.mb-1 console.log(checkAge(16));
                 p.mb-1 } catch (error) {
                 p.ms-2.mb-1 console.log("Error:", error.message);
-                p.mb-1 } // Fin del manejo de errores              
+                p.mb-1 }            
         .row.justify-content-center.align-items-center.mb-4
           .col-lg-10.text-center
             .titulo3.p-4(data-aos="fade-left")
@@ -345,8 +345,8 @@
         p.mb-0 #[b Ejemplo]:
         .tarjeta--fondo4.p-4
               p.text-white.mb-1 javascript
-              p.text-white.mb-1CopyEdit
-              p.text-white.mb-1console.log("Hello;") // SyntaxError: Falta cerrar una comilla          
+              p.text-white.mb-1 CopyEdit
+              p.text-white.mb-1 console.log("Hello;") // SyntaxError: Falta cerrar una comilla          
       .col-md.tarjeta.tarjeta--fondo11.p-5
         .row.justify-content-center.mb-4
           .col-6

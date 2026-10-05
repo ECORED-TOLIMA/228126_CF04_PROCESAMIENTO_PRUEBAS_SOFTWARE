@@ -14,7 +14,7 @@
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema4/img1.svg' alt="")
-        p.text-center #[b Arreglos (arrays)]
+        p.text-center #[b Arreglos (#[i arrays])]
         p.text-center.mb-3 Permiten almacenar múltiples valores en una sola variable.
         p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
@@ -23,7 +23,7 @@
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema4/img2.svg' alt="")
-        p.text-center #[b Objetos (objects)]
+        p.text-center #[b Objetos (#[i objects])]
         p.text-center.mb-3 Permiten almacenar información en pares clave-valor.
         p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
@@ -35,7 +35,7 @@
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema4/img3.svg' alt="")
-        p.text-center #[b Pilas (stacks)]
+        p.text-center #[b Pilas (#[i stacks])]
         p.text-center.mb-3 Siguen el principio LIFO (último en entrar, primero en salir).
         p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3
@@ -46,7 +46,7 @@
         .row.justify-content-center.mb-3
           .col-6
             img(src='@/assets/curso/temas/tema4/img4.svg' alt="")
-        p.text-center #[b Colas (queues)]
+        p.text-center #[b Colas (#[i queues])]
         p.text-center.mb-3 Siguen el principio FIFO (primero en entrar, primero en salir).
         p.text-center.mb-0 Ejemplo:
         .tarjeta--fondo4.p-3

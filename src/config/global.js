@@ -248,7 +248,7 @@ export default {
     {
       termino: 'JavaScript',
       significado:
-        'es un lenguaje de programación interpretado, orientado a objetos y basado en prototipos, ampliamente utilizado para desarrollar aplicaciones web interactivas, tanto en el lado del cliente como del servidor.',
+        'es un lenguaje de programación interpretado, orientado a objetos y basado en prototipos, ampliamente utilizado para desarrollar aplicaciones <em>web</em> interactivas, tanto en el lado del cliente como del servidor.',
     },
     {
       termino: 'Lenguaje de programación',
@@ -324,11 +324,6 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Viviana Esperanza Herrera Quiñonez',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
@@ -339,13 +334,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Jose Yobani Penagos Mora',
+          nombre: 'Oscar Ivan Uribe Ortiz',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Oscar Ivan Uribe Ortiz',
-          cargo: 'Diseñador de contenidos digitales',
+          nombre: 'Sebastian Trujillo Afanador',
+          cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
@@ -363,11 +358,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
         {
           nombre: 'María Fernanda Pineda Mora',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
