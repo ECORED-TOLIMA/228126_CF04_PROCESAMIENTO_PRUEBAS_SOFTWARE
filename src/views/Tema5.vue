@@ -346,7 +346,7 @@
         .tarjeta--fondo4.p-4
               p.text-white.mb-1 javascript
               p.text-white.mb-1 CopyEdit
-              p.text-white.mb-1 console.log("Hello;") // SyntaxError: Falta cerrar una comilla          
+              p.text-white.mb-1 console.log("Hello; // SyntaxError: Falta cerrar una comilla        
       .col-md.tarjeta.tarjeta--fondo11.p-5
         .row.justify-content-center.mb-4
           .col-6
